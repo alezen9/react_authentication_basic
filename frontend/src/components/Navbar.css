@@ -1,0 +1,55 @@
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.navbar-toggler:focus{
+    outline: 0;
+}
+
+.brand{
+    display: inline-block;
+    margin-top: .3125rem;
+    margin-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.user{
+    padding-right: 1em;
+    border-right: 1px solid grey;
+}
+
+.usrImg{
+    height: 40px;
+    line-height: 40px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+.usrImg:hover{
+    transform: scale(1.05);
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.nav-link{
+    color: grey;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.nav-link:hover{
+    color: white;
+}
+
+@media all and (max-width: 900px){
+    .user{
+        padding-right: 0;
+        border: none;
+    }
+}
